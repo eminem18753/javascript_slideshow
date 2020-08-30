@@ -7,19 +7,25 @@
 	<script src="index.js"></script>
 </head>
 <body>
+	<!--h1 title, and button to toggle "slideshow" and "carousel" -->
 	<h1 id="head-title" class="head-title">My javascript slideshow&nbsp;&nbsp;&nbsp;<button id="slideshow-option" class="slideshow-option">Switch to carousel</button></h1>
-	
+
+	<!--the body of slide-container (including "image-body" and "change-page buttons" for "carousel") -->
 	<div id="slide-container" class="slide-container">
-		<div id="left-arrow-container" class="left-arrow-container">
+		<!--"previous slide" button for "carousel", and will be hidden when options is set to "slide show" -->
+		<div id="left-arrow-container" class="left-arrow-container container-size">
+			<!--display the left arrow for changing to previous slide -->
 			<div id="left-arrow" class="left-arrow">
 			</div>
 		</div>
+		<!--the slide body -->
 		<div id="slide" class="slide">
 			<img id="slide-image" class="slide-image" src="" />
 		</div>
-		<div id="right-arrow-container" class="right-arrow-container">
-			<div id="right-arrow" class="right-arrow">
-			
+		<!--"next slide" button for "carousel", and will be hidden when options is set to "slide show" -->
+		<div id="right-arrow-container" class="right-arrow-container container-size">
+			<!--display the right arrow for changing to next slide-->
+			<div id="right-arrow" class="right-arrow">			
 			</div>
 		</div>
 	</div>
